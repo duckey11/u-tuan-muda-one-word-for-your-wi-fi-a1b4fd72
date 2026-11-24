@@ -4,8 +4,10 @@
 Writes a single word describing the entrant's home Wi-Fi to
 /output/entry.txt. Deterministic: the same word on every run.
 
-The word is "liar": the Wi-Fi icon shows full bars while nothing
-loads. The network is not slow, it is lying to your face.
+The word is "liar": the Wi-Fi icon shows full bars and the router
+blinks happily, yet no page ever loads. The signal promises the
+internet and delivers nothing. The network is not slow, it is
+lying to your face.
 """
 
 import os
